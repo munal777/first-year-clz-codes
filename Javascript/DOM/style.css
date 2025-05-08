@@ -1,0 +1,49 @@
+h1 {
+    color: #f0f0f0;
+    background-color: rgb(255, 149, 100);
+    padding: 5px 0px 5px 50px;
+    margin: 40px;
+    text-align: center;
+}
+h1:hover {
+    color: black;
+    background-color: blanchedalmond;
+    transition: 0.6s;
+}
+body {
+    background-color: aliceblue;
+}
+.demo {
+    color: rgb(52, 31, 72);
+}
+.img-container {
+    display: flex;
+    flex-direction: column;
+    /* justify-content: center; */
+    align-items: center;
+}
+#img1 {
+    width: 250px;
+    height: 350px;
+    object-fit: cover;
+}
+#img1-btn {
+    margin-top: 15px;
+    cursor: pointer;
+}
+
+.oldAttribute {
+    height: 220px;
+    width: 220px;
+    background-color: burlywood;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    grid-template-rows: 1fr 1fr;
+    margin: 20px 20px 100px 150px;
+    padding: 20px 30px 20px 30px;
+    border: 2px black dotted;
+    border-radius: 10%;
+}

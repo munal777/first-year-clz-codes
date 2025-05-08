@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1 style="text-align: center;">Learning Forms</h1>
+    <form>
+        <div>
+            <input type="date" id="birthday" name="birthday">
+        </div>
+        <div>
+            <label for="firstname">First Name:</label>
+            <input type="text" id="firstname" name="firstname" placeholder="Enter your first name">
+        </div>
+        <div>
+            <label for="lastname">Last Name:</label>
+            <input type="text" id="lastname" name="lastname">
+        </div>
+        <div>
+            <label>Gender: </label>
+            <input type="radio" id="male" name="gender" value="male">
+            <label for="male">Male</label>
+            <input type="radio" id="female" name="gender" value="female">
+            <label for="female">Female</label>
+        </div>
+        <div>
+            <label>Hobbies: </label>
+            <input type="checkbox" id="football" name="football" value="yes">
+            <label for="football">football</label>
+            <input type="checkbox" id="basketball" name="basketball" value="yes">
+            <label for="basketball">basketball</label>            
+        </div>
+        <div>
+            <textarea name="comment" rows="4" cols="50">
+                enter your comment here...
+            </textarea>
+        </div>
+        <div>
+            <select name="fruits">
+                <option value="apple">Apple</option>
+                <option value="org">Orange</option>
+            </select>
+        </div>
+    </form>
+</body>
+</html>
